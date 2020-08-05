@@ -10,9 +10,6 @@
             "alterId": 8
           }
         ]
-      },
-      "streamSettings": {
-        "network":"ws"
       }
     }
   ],
