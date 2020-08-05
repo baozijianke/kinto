@@ -6,9 +6,13 @@
       "settings": {
         "clients": [
           {
-            "id": "6324bdf4-d342-4d50-9393-1af8ad7ed5a8"
+            "id": "6324bdf4-d342-4d50-9393-1af8ad7ed5a8",
+            "alterId": 8
           }
         ]
+      },
+      "streamSettings": {
+        "network":"ws"
       }
     }
   ],
