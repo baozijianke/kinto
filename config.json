@@ -1,28 +1,21 @@
 {
   "inbounds": [
     {
-      "port": 443,
-      "protocol": "vmess",
+      "port": 16823, // 服务器监听端口
+      "protocol": "vmess",    // 主传入协议
       "settings": {
         "clients": [
           {
-            "id": "d55e23d9-f7d6-4e2e-95bf-6debedc243ab",
+            "id": "8a27783c-8931-4a97-8858-853965d66c81",  // 用户 ID，客户端与服务器必须相同
             "alterId": 64
           }
         ]
-      },
-      "streamSettings": {
-        "network":"ws",
-        "security":"tls",
-        "wsSettings":{
-          "path":"/ray"
-        }
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
+      "protocol": "freedom",  // 主传出协议
       "settings": {}
     }
   ]
